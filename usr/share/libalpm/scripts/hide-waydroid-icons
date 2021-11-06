@@ -4,5 +4,5 @@ sed -i '/"Name=" + appInfo\["name"\]/a \            lines.append("NoDisplay=true
 
 sed -i '/Name=Waydroid/a \        lines.append("NoDisplay=true")' /usr/lib/waydroid/tools/services/user_manager.py
 
-
+sed -i 's|Waydroid.desktop|Waydroid2.desktop|g' /usr/lib/waydroid/tools/services/user_manager.py
 

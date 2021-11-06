@@ -1,3 +1,5 @@
 #!/bin/sh
 
 sed -i '/lines.append("NoDisplay=true")/d' /usr/lib/waydroid/tools/services/user_manager.py
+
+sed -i 's|Waydroid2.desktop|Waydroid.desktop|g' /usr/lib/waydroid/tools/services/user_manager.py
