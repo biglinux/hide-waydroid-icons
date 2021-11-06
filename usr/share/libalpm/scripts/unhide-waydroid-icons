@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -i '/lines.append("NoDisplay=true")/d' /usr/lib/waydroid/tools/services/user_manager.py

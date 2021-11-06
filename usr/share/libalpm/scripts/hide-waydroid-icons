@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sed -i '/"Name=" + appInfo\["name"\]/a \            lines.append("NoDisplay=true")' /usr/lib/waydroid/tools/services/user_manager.py
+
+sed -i '/Name=Waydroid/a \        lines.append("NoDisplay=true")' /usr/lib/waydroid/tools/services/user_manager.py
+
+
+

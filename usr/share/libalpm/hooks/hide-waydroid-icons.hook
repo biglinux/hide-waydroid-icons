@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = waydroid
+
+[Action]
+Description = Waydroid change
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/hide-waydroid-icons

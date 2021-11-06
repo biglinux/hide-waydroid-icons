@@ -1,0 +1,9 @@
+[Trigger]
+Type = Package
+Operation = Remove
+Target = waydroid
+
+[Action]
+Description = Waydroid change
+When = PreTransaction
+Exec = /usr/share/libalpm/scripts/unhide-waydroid-icons
