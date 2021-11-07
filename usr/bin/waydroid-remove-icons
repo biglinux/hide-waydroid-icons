@@ -1,3 +1,4 @@
 #!/bin/bash
 
-rm -R ~/.local/share/applications/waydroid.*
+rm -Rf ~/.local/share/applications/waydroid.*
+rm -Rf ~/.local/share/applications/Waydroid.*
