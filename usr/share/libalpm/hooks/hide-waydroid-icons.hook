@@ -3,6 +3,7 @@ Type = Package
 Operation = Install
 Operation = Upgrade
 Target = waydroid
+Target = hide-waydroid-icons
 
 [Action]
 Description = Waydroid change

@@ -2,6 +2,7 @@
 Type = Package
 Operation = Remove
 Target = waydroid
+Target = hide-waydroid-icons
 
 [Action]
 Description = Waydroid change
