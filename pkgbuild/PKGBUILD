@@ -1,0 +1,17 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=hide-waydroid-icons
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+url="https://github.com/biglinux/hide-waydroid-icons"
+pkgdesc="Automatic change io scheduler"
+source=("git+https://github.com/biglinux/hide-waydroid-icons.git")
+md5sums=(SKIP)
+
+
+package() {
+    cp -r "${srcdir}/grub-theme-biglinux/grub-theme-biglinux/boot/" "${pkgdir}/"
+    cp -r "${srcdir}/grub-theme-biglinux/grub-theme-biglinux/usr/" "${pkgdir}/"
+}
